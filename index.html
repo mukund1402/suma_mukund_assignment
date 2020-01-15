@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mukund test Suma soft</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.css" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Topbar -->
+  <nav class="navbar navbar-expand navbar-light bg-blue topbar mb-4 fixed-top shadow">
+
+    <!-- Sidebar Toggle (Topbar) -->
+    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+      <i class="fa fa-bars"></i>
+    </button>
+
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+      <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+    
+    <!-- Sidebar - Brand -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+    <div class="sidebar-brand-text mx-3">React Material Admin</div>
+    </a>
+    
+    <!-- Topbar Navbar -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown no-arrow mx-1">
+        <form class="search-form searchbar" role="search" id="hiddenSearchBox" action="" method="get">
+        <div class="input-group">
+          <input type="hidden" name="id" value="63">
+          <input type="search" name="keywords" class="form-control" placeholder="Search.." style="display: none;">
+          <div class="input-group-btn">
+            <button type="submit" class="nav-link dropdown-toggle nav-search-btn" data-toggle="searchbar" data-target="#hiddenSearchBox">
+              <i class="fas fa-search fa-sm"></i> <span class="sr-only">Submit</span>
+            </button>
+          </div>
+        </div>
+        </form>
+      </li>
+
+      <!-- Nav Item - Alerts -->
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-bell fa-fw"></i>
+          <!-- Counter - Alerts -->
+          <span class="badge badge-warning badge-counter">3+</span>
+        </a>
+        <!-- Dropdown - Alerts -->
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+          <h6 class="dropdown-header">
+            Alerts Center
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle bg-primary">
+                <i class="fas fa-file-alt text-white"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">December 12, 2019</div>
+              <span class="font-weight-bold">A new monthly report is ready to download!</span>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle bg-success">
+                <i class="fas fa-donate text-white"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">December 7, 2019</div>
+              $290.29 has been deposited into your account!
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="mr-3">
+              <div class="icon-circle bg-warning">
+                <i class="fas fa-exclamation-triangle text-white"></i>
+              </div>
+            </div>
+            <div>
+              <div class="small text-gray-500">December 2, 2019</div>
+              Spending Alert: We've noticed unusually high spending for your account.
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+        </div>
+      </li>
+
+      <!-- Nav Item - Messages -->
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-envelope fa-fw"></i>
+          <!-- Counter - Messages -->
+          <span class="badge badge-danger badge-counter">7</span>
+        </a>
+        <!-- Dropdown - Messages -->
+        <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
+          <h6 class="dropdown-header">
+            Message Center
+          </h6>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60" alt="">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div class="font-weight-bold">
+              <div class="text-truncate">Hi there! I am wondering if you can help me with a problem I've been having.</div>
+              <div class="small text-gray-500">Emily Fowler · 58m</div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60" alt="">
+              <div class="status-indicator"></div>
+            </div>
+            <div>
+              <div class="text-truncate">I have the photos that you ordered last month, how would you like them sent to you?</div>
+              <div class="small text-gray-500">Jae Chun · 1d</div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60" alt="">
+              <div class="status-indicator bg-warning"></div>
+            </div>
+            <div>
+              <div class="text-truncate">Last month's report looks great, I am very happy with the progress so far, keep up the good work!</div>
+              <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+            </div>
+          </a>
+          <a class="dropdown-item d-flex align-items-center" href="#">
+            <div class="dropdown-list-image mr-3">
+              <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60" alt="">
+              <div class="status-indicator bg-success"></div>
+            </div>
+            <div>
+              <div class="text-truncate">Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</div>
+              <div class="small text-gray-500">Chicken the Dog · 2w</div>
+            </div>
+          </a>
+          <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
+        </div>
+      </li>
+
+      <!-- Nav Item - User Information -->
+      <li class="nav-item dropdown no-arrow">
+        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+          <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+        </a>
+        <!-- Dropdown - User Information -->
+        <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+          <h4>John Smith</h4>
+          <a class="dropdown-item" href="#">flatlogic.com</a>
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Tasks
+          </a>
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Messages
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+            Sign Out
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- End of Topbar -->
+  
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-light accordion" id="accordionSidebar">
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path></svg>
+          <span>Dashboard</span></a>
+      </li>
+      
+      <!-- Nav Item - Typography -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z"></path></svg>
+          <span>Typography</span></a>
+      </li>
+
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M3 3v18h18V3H3zm8 16H5v-6h6v6zm0-8H5V5h6v6zm8 8h-6v-6h6v6zm0-8h-6V5h6v6z"></path></svg>
+          <span>Tables</span></a>
+      </li>
+
+      <!-- Nav Item - Notifications -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"></path></svg>
+          <span>Notifications</span></a>
+      </li>
+
+      <!-- Nav Item - UI Elements -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm18-4H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14z"></path></svg>
+          <span>UI Elements</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Help
+      </div>
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9H9V9h10v2zm-4 4H9v-2h6v2zm4-8H9V5h10v2z"></path></svg>
+          <span>Tables</span></a>
+      </li>
+
+      <!-- Nav Item - Notifications -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M21 6h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1zm-4 6V3c0-.55-.45-1-1-1H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1z"></path></svg>
+          <span>Notifications</span></a>
+      </li>
+
+      <!-- Nav Item - UI Elements -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <svg class="icon_menu" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"></path></svg>
+          <span>UI Elements</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+        Projects
+      </div>
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <div class="dot2" style="background-color: rgb(255, 194, 96);"></div>
+          <span>My recent</span></a>
+      </li>
+
+      <!-- Nav Item - Notifications -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <div class="dot2" style="background-color: rgb(83, 109, 254);"></div>
+          <span>Starred</span></a>
+      </li>
+
+      <!-- Nav Item - UI Elements -->
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">
+          <div class="dot2" style="background-color: rgb(255, 92, 147);"></div>
+          <span>Background</span></a>
+      </li>
+  
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4 mt-4">
+            <h1 class="h3 mb-0 text-gray-500">Dashboard</h1>
+            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary btn-danger shadow-sm"> Latest Reports</a>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+            
+            <!-- Visits Today -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">Visits Today</h5>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Edit</a>
+                      <a class="dropdown-item" href="#">Copy</a>
+                      <a class="dropdown-item" href="#">Delete</a>
+                      <a class="dropdown-item" href="#">Print</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center lh68">
+                    <div class="col mr-2">
+                      <p class="MuiTypography-root MuiTypography-body1" style="font-weight: 500; font-size: calc(28px);">12, 678</p>
+                    </div>
+                    <div class="col recharts-wrapper" style="position: relative; cursor: default; width: 55px; height: 30px;">
+                      <svg class="recharts-surface" width="55" height="30" viewBox="0 0 55 30" version="1.1">
+                        <defs><clipPath id="recharts2-clip"><rect x="16" y="0" height="30" width="39"></rect></clipPath></defs>
+                        <g class="recharts-layer recharts-line"><path stroke="#3CD4A0" stroke-width="2" fill="none" width="39" height="30" stroke-dasharray="50.036582946777344px 0px" class="recharts-curve recharts-line-curve" d="M16,15C19.25,10.678571428571429,22.5,6.357142857142858,25.75,7.5C29,8.642857142857142,32.25,15.249999999999998,35.5,15C38.75,14.750000000000002,42.00000000000001,7.642857142857142,45.25,4.5C48.49999999999999,1.3571428571428572,51.75,2.178571428571429,55,3"></path></g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <p>Registrations</p>
+                      <p class="MuiTypography-root MuiTypography-body1" style="font-weight: 400; font-size: calc(21px);">860</p>
+                    </div>
+                    <div class="col-auto">
+                      <p>Sign Out</p>
+                      <p class="MuiTypography-root MuiTypography-body1" style="font-weight: 400; font-size: calc(21px);">32</p>
+                    </div>
+                    <div class="col mr-2">
+                      <p>Rate</p>
+                      <p class="MuiTypography-root MuiTypography-body1" style="font-weight: 400; font-size: calc(21px);">3.25%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- App Performance -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">App Performance</h5>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Edit</a>
+                      <a class="dropdown-item" href="#">Copy</a>
+                      <a class="dropdown-item" href="#">Delete</a>
+                      <a class="dropdown-item" href="#">Print</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="box1_container lh68">
+                    <div class="box1">
+                      <div class="dot1" style="background-color: #ffc260;"></div>
+                      <p>Integration</p>
+                    </div>
+                    <div class="box1">
+                      <div class="dot1" style="background-color: #536dfe;"></div>
+                      <p>SDK</p>
+                    </div>
+                  </div>
+                  <div class="mb8">
+                    <p class="MuiTypography-root MuiTypography-body1" style="color: rgb(110, 110, 110); font-weight: 400; font-size: calc(21px);">Integration</p>
+                    <div class="progress progress-sm mr-2 bg-primary mb8">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  <div class="mb8">
+                    <p class="MuiTypography-root MuiTypography-body1" style="color: rgb(110, 110, 110); font-weight: 400; font-size: calc(21px);">SDK</p>
+                    <div class="progress progress-sm mr-2 bg-primary mb8">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 55%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Server Overview -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">Server Overview</h5>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Edit</a>
+                      <a class="dropdown-item" href="#">Copy</a>
+                      <a class="dropdown-item" href="#">Delete</a>
+                      <a class="dropdown-item" href="#">Print</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center mb8">
+                    <div class="col mr-2">
+                      <p>60% / 37°С / 3.3 Ghz</p>
+                    </div>
+                    <div class="col-auto">
+                      <svg class="recharts-surface" width="48" height="50" viewBox="0 0 48 50" version="1.1"><defs><clipPath id="recharts14-clip"><rect x="5" y="5" height="40" width="38"></rect></clipPath></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><defs><clipPath id="animationClipPath-recharts-area-15"><rect x="5" y="0" width="38" height="47"></rect></clipPath></defs><g class="recharts-layer" clip-path="url(#animationClipPath-recharts-area-15)"><g class="recharts-layer"><path stroke="none" fill="#ff82ac" stroke-width="2" fill-opacity="0.25" width="38" height="40" class="recharts-curve recharts-area-area" d="M5,40C6.407407407407407,29.671188391499157,7.814814814814815,19.342376782998315,9.222222222222221,20C10.629629629629628,20.657623217001685,12.037037037037038,32.3016812595059,13.444444444444445,35C14.851851851851851,37.6983187404941,16.259259259259256,31.45089817897809,17.666666666666668,30C19.07407407407408,28.54910182102191,20.481481481481485,31.89472602458174,21.88888888888889,25C23.296296296296294,18.10527397541826,24.703703703703706,0.9701977226949481,26.11111111111111,5C27.518518518518515,9.029802277305052,28.925925925925924,34.224483084638464,30.333333333333336,40C31.740740740740748,45.775516915361536,33.14814814814816,32.13186993875118,34.55555555555556,25C35.962962962962955,17.868130061248817,37.37037037037037,17.248037160356805,38.77777777777778,15C40.18518518518519,12.751962839643195,41.592592592592595,8.875981419821597,43,5L43,45C41.592592592592595,45,40.18518518518518,45,38.77777777777778,45C37.370370370370374,45,35.96296296296297,45,34.55555555555556,45C33.148148148148145,45,31.740740740740737,45,30.333333333333336,45C28.925925925925934,45,27.51851851851852,45,26.11111111111111,45C24.703703703703702,45,23.2962962962963,45,21.88888888888889,45C20.481481481481477,45,19.074074074074076,45,17.666666666666668,45C16.25925925925926,45,14.851851851851851,45,13.444444444444445,45C12.037037037037038,45,10.62962962962963,45,9.222222222222221,45C7.814814814814814,45,6.4074074074074066,45,5,45Z"></path><path stroke="#FF5C93" fill="none" stroke-width="2" fill-opacity="0.25" width="38" height="40" class="recharts-curve recharts-area-curve" d="M5,40C6.407407407407407,29.671188391499157,7.814814814814815,19.342376782998315,9.222222222222221,20C10.629629629629628,20.657623217001685,12.037037037037038,32.3016812595059,13.444444444444445,35C14.851851851851851,37.6983187404941,16.259259259259256,31.45089817897809,17.666666666666668,30C19.07407407407408,28.54910182102191,20.481481481481485,31.89472602458174,21.88888888888889,25C23.296296296296294,18.10527397541826,24.703703703703706,0.9701977226949481,26.11111111111111,5C27.518518518518515,9.029802277305052,28.925925925925924,34.224483084638464,30.333333333333336,40C31.740740740740748,45.775516915361536,33.14814814814816,32.13186993875118,34.55555555555556,25C35.962962962962955,17.868130061248817,37.37037037037037,17.248037160356805,38.77777777777778,15C40.18518518518519,12.751962839643195,41.592592592592595,8.875981419821597,43,5"></path></g></g></g></g></svg>
+                    </div>
+                  </div>
+                  <div class="row no-gutters align-items-center mb8">
+                    <div class="col mr-2">
+                      <p>54% / 31°С / 3.3 Ghz</p>
+                    </div>
+                    <div class="col-auto">
+                      <svg class="recharts-surface" width="48" height="50" viewBox="0 0 48 50" version="1.1"><defs><clipPath id="recharts17-clip"><rect x="5" y="5" height="40" width="38"></rect></clipPath></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><defs><clipPath id="animationClipPath-recharts-area-18"><rect x="5" y="0" width="38" height="47"></rect></clipPath></defs><g class="recharts-layer" clip-path="url(#animationClipPath-recharts-area-18)"><g class="recharts-layer"><path stroke="none" fill="#798dfe" stroke-width="2" fill-opacity="0.25" width="38" height="40" class="recharts-curve recharts-area-area" d="M5,25C6.407407407407407,23.45770817061975,7.814814814814815,21.9154163412395,9.222222222222221,25C10.629629629629628,28.0845836587605,12.037037037037038,35.79604280566174,13.444444444444445,31.666666666666668C14.851851851851851,27.53729052767159,16.259259259259256,11.567079102780177,17.666666666666668,15C19.07407407407408,18.432920897219823,20.481481481481485,41.26897411655089,21.88888888888889,41.666666666666664C23.296296296296294,42.064359216782435,24.703703703703706,20.023691097682953,26.11111111111111,18.333333333333336C27.518518518518515,16.64297556898372,28.925925925925924,35.30292815938395,30.333333333333336,41.666666666666664C31.740740740740748,48.030405173949376,33.14814814814816,42.09792959811458,34.55555555555556,38.333333333333336C35.962962962962955,34.56873706855209,37.37037037037037,32.9720201148244,38.77777777777778,31.666666666666668C40.18518518518519,30.36131321850893,41.592592592592595,29.34732327592113,43,28.333333333333332L43,45C41.592592592592595,45,40.18518518518518,45,38.77777777777778,45C37.370370370370374,45,35.96296296296297,45,34.55555555555556,45C33.148148148148145,45,31.740740740740737,45,30.333333333333336,45C28.925925925925934,45,27.51851851851852,45,26.11111111111111,45C24.703703703703702,45,23.2962962962963,45,21.88888888888889,45C20.481481481481477,45,19.074074074074076,45,17.666666666666668,45C16.25925925925926,45,14.851851851851851,45,13.444444444444445,45C12.037037037037038,45,10.62962962962963,45,9.222222222222221,45C7.814814814814814,45,6.4074074074074066,45,5,45Z"></path><path stroke="#536DFE" fill="none" stroke-width="2" fill-opacity="0.25" width="38" height="40" class="recharts-curve recharts-area-curve" d="M5,25C6.407407407407407,23.45770817061975,7.814814814814815,21.9154163412395,9.222222222222221,25C10.629629629629628,28.0845836587605,12.037037037037038,35.79604280566174,13.444444444444445,31.666666666666668C14.851851851851851,27.53729052767159,16.259259259259256,11.567079102780177,17.666666666666668,15C19.07407407407408,18.432920897219823,20.481481481481485,41.26897411655089,21.88888888888889,41.666666666666664C23.296296296296294,42.064359216782435,24.703703703703706,20.023691097682953,26.11111111111111,18.333333333333336C27.518518518518515,16.64297556898372,28.925925925925924,35.30292815938395,30.333333333333336,41.666666666666664C31.740740740740748,48.030405173949376,33.14814814814816,42.09792959811458,34.55555555555556,38.333333333333336C35.962962962962955,34.56873706855209,37.37037037037037,32.9720201148244,38.77777777777778,31.666666666666668C40.18518518518519,30.36131321850893,41.592592592592595,29.34732327592113,43,28.333333333333332"></path></g></g></g></g></svg>
+                    </div>
+                  </div>
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <p>57% / 21°С / 3.3 Ghz</p>
+                    </div>
+                    <div class="col-auto">
+                      <svg class="recharts-surface" width="48" height="50" viewBox="0 0 48 50" version="1.1"><defs><clipPath id="recharts20-clip"><rect x="5" y="5" height="40" width="38"></rect></clipPath></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><defs><clipPath id="animationClipPath-recharts-area-21"><rect x="5" y="0" width="38" height="47"></rect></clipPath></defs><g class="recharts-layer" clip-path="url(#animationClipPath-recharts-area-21)"><g class="recharts-layer"><path stroke="none" fill="#ffd186" stroke-width="2" fill-opacity="0.25" width="38" height="40" class="recharts-curve recharts-area-area" d="M5,41.666666666666664C6.407407407407407,28.040489990545485,7.814814814814815,14.414313314424298,9.222222222222221,18.333333333333336C10.629629629629628,22.252353352242373,12.037037037037038,43.71657006618161,13.444444444444445,41.666666666666664C14.851851851851851,39.61676326715172,16.259259259259256,14.052739754182591,17.666666666666668,11.666666666666664C19.07407407407408,9.280593579150738,20.481481481481485,30.07247091708802,21.88888888888889,38.333333333333336C23.296296296296294,46.59419574957865,24.703703703703706,42.32404324413203,26.11111111111111,35C27.518518518518515,27.675956755867976,28.925925925925924,17.298022773050526,30.333333333333336,18.333333333333336C31.740740740740748,19.368643893616145,33.14814814814816,31.817198996999217,34.55555555555556,31.666666666666668C35.962962962962955,31.51613433633412,37.37037037037037,18.766514572285942,38.77777777777778,15C40.18518518518519,11.23348542771406,41.592592592592595,16.45007604719036,43,21.666666666666664L43,45C41.592592592592595,45,40.18518518518518,45,38.77777777777778,45C37.370370370370374,45,35.96296296296297,45,34.55555555555556,45C33.148148148148145,45,31.740740740740737,45,30.333333333333336,45C28.925925925925934,45,27.51851851851852,45,26.11111111111111,45C24.703703703703702,45,23.2962962962963,45,21.88888888888889,45C20.481481481481477,45,19.074074074074076,45,17.666666666666668,45C16.25925925925926,45,14.851851851851851,45,13.444444444444445,45C12.037037037037038,45,10.62962962962963,45,9.222222222222221,45C7.814814814814814,45,6.4074074074074066,45,5,45Z"></path><path stroke="#FFC260" fill="none" stroke-width="2" fill-opacity="0.25" width="38" height="40" class="recharts-curve recharts-area-curve" d="M5,41.666666666666664C6.407407407407407,28.040489990545485,7.814814814814815,14.414313314424298,9.222222222222221,18.333333333333336C10.629629629629628,22.252353352242373,12.037037037037038,43.71657006618161,13.444444444444445,41.666666666666664C14.851851851851851,39.61676326715172,16.259259259259256,14.052739754182591,17.666666666666668,11.666666666666664C19.07407407407408,9.280593579150738,20.481481481481485,30.07247091708802,21.88888888888889,38.333333333333336C23.296296296296294,46.59419574957865,24.703703703703706,42.32404324413203,26.11111111111111,35C27.518518518518515,27.675956755867976,28.925925925925924,17.298022773050526,30.333333333333336,18.333333333333336C31.740740740740748,19.368643893616145,33.14814814814816,31.817198996999217,34.55555555555556,31.666666666666668C35.962962962962955,31.51613433633412,37.37037037037037,18.766514572285942,38.77777777777778,15C40.18518518518519,11.23348542771406,41.592592592592595,16.45007604719036,43,21.666666666666664"></path></g></g></g></g></svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Revenue Breakdown -->
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">Revenue Breakdown</h5>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Edit</a>
+                      <a class="dropdown-item" href="#">Copy</a>
+                      <a class="dropdown-item" href="#">Delete</a>
+                      <a class="dropdown-item" href="#">Print</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div style="width: 50%; height: 100px; position: absolute; top: 0; left: 0;">
+                  <div class="chart-pie pt-4 pb-2">
+                    <canvas id="myPieChart"></canvas>
+                  </div></div>
+                  <div class="row">
+                    <div class="col-xl-5 col-md-5 mb-5">
+                      
+                    </div>
+                    <div class="col-xl-7 col-md-7 mb-7" style="margin: 0; background-color: #ffffff;">
+                      <div class="box2">
+                        <div class="dot1" style="background-color: #536dfe;"></div>
+                        <p class="card-text1">Group A&nbsp;</p>
+                        <p>400</p>
+                      </div>
+                      <div class="box2">
+                        <div class="dot1" style="background-color: #ff5c93;"></div>
+                        <p class="card-text1">Group B&nbsp;</p>
+                        <p>300</p>
+                      </div>
+                      <div class="box2">
+                        <div class="dot1" style="background-color: #ffc260;"></div>
+                        <p class="card-text1">Group C&nbsp;</p>
+                        <p>300</p>
+                      </div>
+                      <div class="box2">
+                        <div class="dot1" style="background-color: #3cd4a0;"></div>
+                        <p class="card-text1"> Group D&nbsp;</p>
+                        <p> 200 </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+
+            <!-- Area Chart -->
+            <div class="col-xl-12 col-lg-12">
+              <div class="card shadow mb-4">
+          
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h6 class="m-0 font-weight-bold text-primary">Daily Line Chart</h6>
+                  <div class="jss290" style="display: flex; align-items: center;">
+                    <div class="box3">
+                      <div class="dot1" style="background-color: rgb(255, 194, 96);"></div>
+                      <p>Tablet</p>
+                    </div>
+                    <div class="box3">
+                      <div class="dot1" style="background-color: rgb(83, 109, 254);"></div>
+                      <p>Mobile</p>
+                    </div>
+                    <div class="box3">
+                      <div class="dot1" style="background-color: rgb(83, 109, 254);"></div>
+                      <p>Desktop</p>
+                    </div>
+                  </div>
+                  <select class="form-control pull-right" id="sel1">
+                    <option>Daily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                  </select>
+                </div>
+          
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+            
+            <!-- Light Blue -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">Light Blue</h5>
+                  <select class="form-control pull-right" id="sel1">
+                    <option>Daily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                  </select>
+                </div>
+
+                <!-- Card Body -->
+                <div class="card-body" style="padding: 0 10px 24px;">
+                  <div class="row">
+                    <div class="col-xl-6 col-md-6 value-flex1">
+                      <p class="p1">199</p>
+                      <p class="p2 negative">&nbsp;-3.7%</p>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <div id="sparklinedash"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-4 col-md-4">
+                      <div>
+                        <h6>33</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Registrations</p>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                      <div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center">
+                        <h6>3.25%</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Bounce Rate</p>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                      <div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center">
+                        <h6>330</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sing App -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">Sing App</h5>
+                  <select class="form-control pull-right" id="sel1">
+                    <option>Daily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                  </select>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body" style="padding: 0 10px 24px;">
+                  <div class="row">
+                    <div class="col-xl-6 col-md-6 value-flex1">
+                      <p class="p1">27</p>
+                      <p class="p2">&nbsp;+2.5%</p>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <div id="sparklinedash2"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-4 col-md-4">
+                      <div>
+                        <h6>2</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                        </svg>
+                      </div>
+                      <p class="card-text2">Registrations</p>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                      <div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center">
+                        <h6>4.5%</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Bounce Rate</p>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                      <div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center">
+                        <h6>20</h6>
+                        <svg class="arrow2" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- RNS -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">RNS</h5>
+                  <select class="form-control pull-right" id="sel1">
+                    <option>Daily</option>
+                    <option>Weekly</option>
+                    <option>Monthly</option>
+                  </select>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body" style="padding: 0 10px 24px;">
+                  <div class="row">
+                    <div class="col-xl-6 col-md-6 value-flex1">
+                      <p class="p1">44</p>
+                      <p class="p2">&nbsp;+3.1%</p>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                      <div id="sparklinedash3"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-4 col-md-4">
+                      <div>
+                        <h6>15</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                        </svg>
+                      </div>
+                      <p class="card-text2">Registrations</p>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                      <div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center">
+                        <h6>10.1%</h6>
+                        <svg class="arrow1" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Bounce Rate</p>
+                    </div>
+                    <div class="col-xl-4 col-md-4">
+                      <div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center">
+                        <h6>150</h6>
+                        <svg class="arrow2" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path></svg>
+                      </div>
+                      <p class="card-text2">Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content Row -->
+          <div class="row">
+            
+            <!-- Visits Today -->
+            <div class="col-xl-12 col-md-12 mb-4">
+              <div class="card shadow mb-4">
+     
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="m-0 text-primary">Support Requests</h5>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item" href="#">Edit</a>
+                      <a class="dropdown-item" href="#">Copy</a>
+                      <a class="dropdown-item" href="#">Delete</a>
+                      <a class="dropdown-item" href="#">Print</a>
+                    </div>
+                  </div>
+                </div>
+   
+                <!-- Card Body -->
+                <div class="card-body">
+                  <div class="table-responsive">
+                    <table class="table" width="100%" cellspacing="0">
+                      <thead>
+                        <tr>
+                          <th>NAME</th>
+                          <th>EMAIL</th>
+                          <th>PRODUCT</th>
+                          <th>PRICE</th>
+                          <th>DATE</th>
+                          <th>CITY</th>
+                          <th>STATUS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Mark Otto</td>
+                          <td>ottoto@wxample.com</td>
+                          <td>ON the Road</td>
+                          <td>$25 224.2</td>
+                          <td>11 May 2017</td>
+                          <td>Otsego</td>
+                          <td>
+                            <button class="btn btn-success" tabindex="0" type="button"><span class="MuiButton-label">Sent</span><span class="MuiTouchRipple-root"></span></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Jacob Thornton</td>
+                          <td>thornton@wxample.com</td>
+                          <td>HP Core i7</td>
+                          <td>$1 254.2</td>
+                          <td>4 Jun 2017</td>
+                          <td>Fivepointville</td>
+                          <td>
+                            <button class="btn btn-success" tabindex="0" type="button"><span class="MuiButton-label">Sent</span><span class="MuiTouchRipple-root"></span></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Larry the Bird</td>
+                          <td>bird@wxample.com</td>
+                          <td>Air Pro</td>
+                          <td>$1 570.0</td>
+                          <td>27 Aug 2017</td>
+                          <td>Leadville North</td>
+                          <td>
+                            <button class="btn btn-warning" tabindex="0" type="button"><span class="MuiButton-label">Pending</span><span class="MuiTouchRipple-root"></span></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Joseph May</td>
+                          <td>josephmay@wxample.com</td>
+                          <td>Version Control</td>
+                          <td>$5 224.5</td>
+                          <td>19 Feb 2018</td>
+                          <td>Seaforth</td>
+                          <td>
+                            <button class="btn btn-danger" tabindex="0" type="button"><span class="MuiButton-label">Declined</span><span class="MuiTouchRipple-root"></span></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Peter Horadnia</td>
+                          <td>horadnia@wxample.com</td>
+                          <td>Let's Dance</td>
+                          <td>$43 594.7</td>
+                          <td>1 Mar 2018</td>
+                          <td>Hanoverton</td>
+                          <td>
+                            <button class="btn btn-success" tabindex="0" type="button"><span class="MuiButton-label">Sent</span><span class="MuiTouchRipple-root"></span></button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Area chart spline -->
+  <script src="js/spline/spline.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+  <!-- Custom top-search scripts for all pages-->
+  <script src="js/top-search.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="vendor/chart.js/Chart.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
+
+  <!--<script src="js/demo/chart-bar-demo.js"></script>-->
+
+  <!-- Page level plugins -->
+  <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="js/demo/datatables-demo.js"></script>
+
+  <!-- jquery
+		============================================ 
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>-->
+    <!-- bootstrap JS
+		============================================ 
+    <script src="js/bootstrap.min.js"></script>-->
+    
+    <!-- sparkline JS
+		============================================ -->
+    <script src="js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="js/sparkline/jquery.charts-sparkline.js"></script>
+
+	  <!-- float JS
+		============================================ -->
+    <script src="js/flot/jquery.flot.js"></script>
+    <script src="js/flot/jquery.flot.resize.js"></script>
+    <script src="js/flot/curvedLines.js"></script>
+    <script src="js/flot/flot-active.js"></script>
+</body>
+
+</html>
